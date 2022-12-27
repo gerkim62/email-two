@@ -127,7 +127,7 @@
       }
 
       function checkAuth() {
-        console.log('checkAuth', gapi)
+        console.log('checkAuth', gapi.auth)
         gapi.auth.authorize({
           client_id: clientId,
           scope: scopes,
